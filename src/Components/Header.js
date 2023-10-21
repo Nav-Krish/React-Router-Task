@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
+import banner from '../assets/Header-banner.png'
 
 const Header = () => {
   return (
@@ -7,7 +8,7 @@ const Header = () => {
         <div className="blog-header">
           <div className="img-div">
             <a className='header-banner' href="https://www.guvi.in" target='_blank'>
-              <img src="https://www.guvi.in/blog/wp-content/uploads/2022/10/blog-header-1536x236.png" alt="Blog Header" />
+              <img src={banner} alt="Blog Header" />
             </a>
           </div>
           <div className="header-navbar">

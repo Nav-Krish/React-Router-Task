@@ -1,12 +1,13 @@
 import React from 'react';
 import './Navbar.css';
+import logo from '../assets/Guvi-blog-logo.webp'
 
 function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container">
                 <a className="navbar-brand" href="/">
-                    <img src="https://www.guvi.in/blog/wp-content/uploads/2022/04/Guvi-blog-logo.png" alt="Guvi Blog Logo" width="120" height="auto" />
+                    <img src={logo} alt="Guvi Blog Logo" width="120" height="auto" />
                 </a>
                 <button
                     className="navbar-toggler"
