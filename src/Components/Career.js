@@ -1,12 +1,6 @@
 import React from 'react'
-import image1 from '../assets/all/4.webp'
-import image2 from '../assets/all/5.webp'
-import image3 from '../assets/career/3.webp'
-import image4 from '../assets/career/4.webp'
-import image5 from '../assets/career/5.webp'
-import image6 from '../assets/career/6.jpeg'
 import './Blog.css';
-import { Link } from 'react-router-dom'
+
 
 function Career() {
   const blogCardData = [

@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../assets/Guvi-blog-logo.png';
 import './Navbar.css';
 
 function Navbar() {
